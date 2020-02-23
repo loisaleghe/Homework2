@@ -152,18 +152,34 @@ section{
     height: calc(100vh - 80px); 
 } */
 
-.footer{
+/* footer{
     background:orchid;
     text-align: center;
     font-weight: lighter;
     font-size: 8px;
     color: white;
     height: 35px;
-}
+} */
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: orchid;
+    color: white;
+    text-align: center;
+    /* padding-top: 20px; */
+    padding:10px;
+    padding-top:20px;
+  }
 
 .card{
     margin-top:20px;
     margin-bottom:40px;
+}
+
+form{
+    margin:20px;
 }
 
 /* .card .card-body .card-title{
