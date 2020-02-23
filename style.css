@@ -9,13 +9,13 @@
 body{
     font-family: 'Alegreya', ;
 }
-
+/* To style my navbar */
 nav{
     background: orchid;
     width: 100%;
     height:80px;
 }
-
+/* To style the logo in the navbar, in this case my name */
 .logo{
     color: white;
     font-size:30px;
@@ -29,14 +29,14 @@ nav ul{
     float: right;
     margin-right: 20px;
 }
-
+/* To style the link */
 nav ul li{
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
     font-weight:bold;
 }
-
+/* To style the anchor tag in the navbar */
 nav ul li a{
     color: black;
     font-size:15px;
@@ -45,7 +45,7 @@ nav ul li a{
     text-decoration:none;
 
 }
-
+/* To be able to hover on tab selected  */
 a.active, a:hover{
     color:rgb(163, 53, 19);
     transition: all 1s;
@@ -64,7 +64,7 @@ a.active, a:hover{
 #checkboxID{
     display:none;
 }
-
+/* Queries to help make webpages look responive */
 @media (max-width:980px){
     .logo{
     font-size:30px;
@@ -145,21 +145,7 @@ a.active, a:hover{
     }
     
 }
-/* 
-section{
-    background: url("image1.jpg") no-repeat;
-    background-size: cover;
-    height: calc(100vh - 80px); 
-} */
-
-/* footer{
-    background:orchid;
-    text-align: center;
-    font-weight: lighter;
-    font-size: 8px;
-    color: white;
-    height: 35px;
-} */
+/* To style the footer  */
 .footer {
     position: relative;
     left: 0;
@@ -172,16 +158,13 @@ section{
     padding:10px;
     padding-top:20px;
   }
-
+/* To style the card */
 .card{
     margin-top:20px;
     margin-bottom:40px;
 }
-
+/* To set the form */
 form{
     margin:20px;
 }
 
-/* .card .card-body .card-title{
-    
-} */
