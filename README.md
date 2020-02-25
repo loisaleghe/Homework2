@@ -14,6 +14,9 @@ I had to import bootstrap or rather add the link to my html pages, I also added 
 
 I did not install anything new in the process of creating this project
 
+## Link to Site
+https://loisaleghe.github.io/Homework2/
+
 ## Author
 
 Lois Aleghe
